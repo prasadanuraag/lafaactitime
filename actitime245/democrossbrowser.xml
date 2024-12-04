@@ -1,0 +1,27 @@
+
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Testa">
+  <parameter name="browser" value="edge"/>
+  <classes>
+     
+      <class name="advsel.DemoCrossBrowser"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Testb">
+  <parameter name="browser" value="chrome"/>
+  <classes>
+     
+      <class name="advsel.DemoCrossBrowser"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Testc">
+  <parameter name="browser" value="firefox"/>
+  <classes>
+     
+      <class name="advsel.DemoCrossBrowser"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
